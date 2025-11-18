@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://bnyaj6ve1oq3y"]
+[gd_scene load_steps=7 format=4 uid="uid://bnyaj6ve1oq3y"]
 
 [ext_resource type="Texture2D" uid="uid://can4midfcgwmg" path="res://assets/Sprites/New Piskel.png" id="1_ol7eg"]
 [ext_resource type="PackedScene" uid="uid://4c6lmqi5cplf" path="res://Player.tscn" id="2_drghv"]
+[ext_resource type="PackedScene" uid="uid://bjehg0npyie0s" path="res://laser.tscn" id="3_hb0mr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_drghv"]
 texture = ExtResource("1_ol7eg")
@@ -39,3 +40,6 @@ position = Vector2(27, -258)
 
 [node name="Camera2D" type="Camera2D" parent="player"]
 zoom = Vector2(4, 4)
+
+[node name="laser2" parent="player" instance=ExtResource("3_hb0mr")]
+target_position = Vector2(1400, 48)

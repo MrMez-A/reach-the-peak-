@@ -134,6 +134,8 @@ radius = 22.022715
 script = SubResource("GDScript_ij6vw")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2.249998, 0)
+scale = Vector2(1.0120001, 1)
 sprite_frames = SubResource("SpriteFrames_6ct3r")
 animation = &"walk"
 autoplay = "idle"
