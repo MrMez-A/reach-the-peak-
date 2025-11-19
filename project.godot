@@ -15,6 +15,13 @@ run/main_scene="uid://bnyaj6ve1oq3y"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=2304
+window/size/viewport_height=1296
+window/size/window_width_override=576
+window/size/window_height_override=324
+
 [dotnet]
 
 project/assembly_name="reach the PEAK!"
